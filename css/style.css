@@ -6,77 +6,57 @@
     padding: 0;
 }
 
-.encabezado {
-    background-color: rgb(255, 242, 226);
-    display: flex;
-    grid-template-columns: 45% auto auto auto;
-    justify-content: start;
-    column-gap: 1fr;
-    margin: 15px;
-    height: auto;
-    flex-direction: column;
-    width: auto;
-}
 
-.bg-propio {
-    background-color: rgb(255, 242, 226);
-    position: sticky;
-    top: 20px;
-    width: 100%;
-
-
-}
-
-nav ul li a {
+nav ul li a{
     display: flex;
     text-decoration: none;
     font-size: 1.1rem;
     color: rgba(23, 4, 29, 0.438);
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
-    margin-left: 70px;
+    margin-left: 70px; 
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Oswald', sans-serif;
-    position: fixed;
-    width: 100%;
-    padding: 0.5rem;
-    top: 0;
-    z-index: 999;
-}
+
+.articulos ul div li a:hover {
+    color:darkmagenta;
+} 
 
 .navbar li {
     font-family: 'Oswald', sans-serif;
 }
 
+.bg-propio{
+    background-image: linear-gradient(to right, white, rgb(255, 249, 250),pink)
+}
+
 
 .navbar {
-    list-style: none;
-    font-weight: bold;
+    /* list-style: none; */
+    /* font-weight: bold; */
     color: black;
     font-family: 'Oswald', sans-serif;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 .articulos {
     color: black;
     font-family: 'Oswald', sans-serif;
+
 }
-
+#fondo {
+    background-image: url(https://st3.depositphotos.com/6064568/16277/v/450/depositphotos_162772116-stock-illustration-casual-fashion-for-beautiful-female.jpg);
+}
 .formulario {
-    background-color: rgb(255, 241, 224);
     font-family: 'Oswald', sans-serif;
-
+    color: rgb(56, 185, 172);
+    display: grid;
+   
 }
 
 .pie-de-pagina {
-    background-color: rosybrown;
+    background-color: rgb(251, 218, 223);
     font-family: 'Oswald', sans-serif;
     font-size: 1.7rem;
     display: grid;
@@ -94,6 +74,7 @@ nav {
     grid-area: redes-sociales;
     gap: 0.6rem;
     font-family: 'Oswald', sans-serif;
+    
 }
 
 .pie-de-pagina p {
@@ -122,11 +103,9 @@ nav {
 .img {
     display: grid;
     width: auto;
-
 }
-
 .contenedor-img {
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto auto;
     width: 80%;
@@ -151,19 +130,9 @@ nav {
     grid-row-start: span 2;
 }
 
-@media screen and (min-width:320px) {
-    .encabezado logo {
-        width: 50px;
-    }
+
+@media screen and (max-width: 500px){
+    body { background-image: linear-gradient(to right, white, white, pink);}
 
 }
 
-
-.encabezado {
-    background-color: rgb(255, 242, 226);
-    display: grid;
-    justify-content: start;
-    column-gap: 1fr;
-    margin: 15px;
-    font-family: 'Oswald', sans-serif;
-}
