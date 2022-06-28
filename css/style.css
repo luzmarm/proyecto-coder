@@ -53,7 +53,29 @@ nav ul li a{
     font-family: 'Oswald', sans-serif;
     color: rgb(56, 185, 172);
     display: grid;
-   
+    text-align: center;
+}
+
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.btn-green {
+    color: white;
+    background-color: grey;
+}
+
+.btn-green:hover{
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+
+.btn-green:active{
+    color: white;
+    background-color: rgb(27, 27, 27);
 }
 
 .pie-de-pagina {
@@ -61,7 +83,7 @@ nav ul li a{
     font-family: 'Oswald', sans-serif;
     font-size: 1.7rem;
     display: grid;
-    color: white;
+    color: black;
     grid-template-areas:
         "redes-sociales"
         "deva-accesorios";
@@ -92,26 +114,28 @@ nav ul li a{
     width: 100%;
     margin: 2rem 0;
     font-size: 1.5rem;
-    padding: 1rem 15rem;
+    padding: 1rem 10rem;
 }
 
-.h1 {
-    display: grid;
-    justify-content: center;
+.titulo {
+    text-align: center;
     font-family: 'Oswald', sans-serif;
 }
 
 .img {
     display: grid;
     width: auto;
+    /* justify-content: center; */
+    text-align: center;
 }
 .contenedor-img {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr;
     grid-template-rows: auto auto auto;
-    width: 80%;
+    width: 100%;
+    /* column-gap: 15px; */
     justify-content: center;
-    grid-gap: 1.2rem;
+    grid-gap: 5rem;
     justify-content: center;
 }
 
