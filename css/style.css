@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -18,7 +19,58 @@ nav ul li a{
     margin-left: 70px; 
 }
 
+.itemCarrousel{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+    height: 100%;
+}
 
+.tarjetaCarrousel{
+    height: 100%;
+    position: relative;
+}
+
+.flechasCarrousel{
+background-color: rgb(252, 197, 206, 0.3);
+height: 100%;
+position: absolute;
+top:0;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+
+}
+
+#conteItemCarrousel{
+    border: 5px solid black;
+    height: 200px;
+    overflow: hidden;
+}
+
+.a{
+    text-decoration: none;
+}
+
+.li{
+    color: white;
+}
+#tarjetaCarrousel-1{
+    background-color: aquamarine;
+
+}
+
+#tarjetaCarrousel-2{
+    background-color: pink;
+
+}
+
+#tarjetaCarrousel-3{
+    background-color: bisque;
+
+}
 .articulos ul div li a:hover {
     color:darkmagenta;
 } 
@@ -44,17 +96,26 @@ nav ul li a{
 .articulos {
     color: black;
     font-family: 'Oswald', sans-serif;
-
+    text-decoration: none;
+    
 }
 #fondo {
-    background-image: url(https://st3.depositphotos.com/6064568/16277/v/450/depositphotos_162772116-stock-illustration-casual-fashion-for-beautiful-female.jpg);
+    background-image: url(https://st3.depositphotos.com/1611131/15031/v/450/depositphotos_150318496-stock-illustration-elegant-romantic-sexy-woman-pop.jpg);
+width: 100%;
+height: 600px;
 }
+
 .formulario {
     font-family: 'Oswald', sans-serif;
     color: rgb(56, 185, 172);
     display: grid;
     text-align: center;
+    background: rgba(0,0,0,.5);
+    border: solid;
+    color: white;
 }
+
+
 
 .btn{
     border-radius: 3px;
@@ -108,25 +169,35 @@ nav ul li a{
     grid-area: deva-accesorios;
 }
 
+.main{
+    color: black;
+    width: 100%;
+    display: grid;
+    grid-gap: 5rem;
+
+}
 .coleccion {
-    background-color: bisque;
     font-family: 'Oswald', sans-serif;
     width: 100%;
     margin: 2rem 0;
     font-size: 1.5rem;
     padding: 1rem 10rem;
+    color: black;
+    background-color: pink;
 }
 
 .titulo {
     text-align: center;
     font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: black;
 }
 
-.img {
-    display: grid;
+.img {    display: grid;
     width: auto;
     /* justify-content: center; */
     text-align: center;
+    border: solid;
 }
 .contenedor-img {
     display: grid;
