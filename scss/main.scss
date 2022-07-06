@@ -1,0 +1,46 @@
+@import "./partials/variables";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import "./partials/header";
+@import "./partials/reset";
+@import "./partials/footer";
+@import "./partials/navIndex";
+@import "./partials/ContenedorImg";
+@import "./partials/formulario";
+@import "./partials/mediaQuerys";
+
+
+
+
+.div .btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+
+.btn-green {
+    color: white;
+    background-color: grey;
+}
+
+.btn-green:hover {
+    color: white;
+    background-color: rgb(59, 59, 59);
+}
+
+.btn-green:active {
+    color: white;
+    background-color: rgb(27, 27, 27);
+}
+
+
+
+.main {
+    color: black;
+    width: 80%;
+
+
+}
+
+

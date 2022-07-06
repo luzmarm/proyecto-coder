@@ -1,0 +1,244 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.encabezado {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.encabezado .titulo {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+}
+.encabezado nav ul li a {
+  display: flex;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: rgba(23, 4, 29, 0.438);
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  justify-content: center;
+}
+.encabezado .bg-propio {
+  background-image: linear-gradient(to right, white, rgb(255, 249, 250), pink);
+}
+
+.h1 {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+.navbar .a {
+  text-decoration: none;
+}
+.navbar .li {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.pie-de-pagina {
+  background-color: rgb(251, 218, 223);
+  font-family: "Oswald", sans-serif;
+  font-size: 1.7rem;
+  display: grid;
+  color: black;
+  grid-template-areas: "redes-sociales" "deva-accesorios";
+  justify-content: end;
+  padding: 1rem;
+}
+.pie-de-pagina .redes {
+  display: flex;
+  justify-content: center;
+  grid-area: redes-sociales;
+  gap: 0.5rem;
+  font-family: "Oswald", sans-serif;
+}
+.pie-de-pagina .redes .a {
+  text-decoration: none;
+}
+.pie-de-pagina .redes .li {
+  color: white;
+}
+.pie-de-pagina .p {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  font-family: "Oswald", sans-serif;
+  grid-area: deva-accesorios;
+}
+
+.articulos {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 5rem;
+  background-color: black;
+}
+.articulos .a:hover {
+  color: black;
+}
+.articulos .titulo {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+}
+.articulos #fondo {
+  background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
+  width: 100%;
+  height: 600px;
+}
+.articulos #fondo .navbar {
+  color: black;
+  font-family: "Oswald", sans-serif;
+}
+.articulos #fondo .navbar .li {
+  color: white;
+}
+
+#conteItemCarrousel {
+  border: 5px solid black;
+  height: 15rem;
+  overflow: hidden;
+}
+#conteItemCarrousel .itemCarrousel {
+  border: 1px solid white;
+  height: 200px;
+  position: relative;
+  height: 100%;
+}
+#conteItemCarrousel .itemCarrousel .tarjetaCarrousel {
+  height: 100%;
+  position: relative;
+}
+#conteItemCarrousel .itemCarrousel .tarjetaCarrousel #tarjetaCarrousel-1 {
+  background-color: aquamarine;
+}
+#conteItemCarrousel .itemCarrousel .tarjetaCarrousel #tarjetaCarrousel-2 {
+  background-color: pink;
+}
+#conteItemCarrousel .itemCarrousel .tarjetaCarrousel #tarjetaCarrousel-3 {
+  background-color: bisque;
+}
+#conteItemCarrousel .itemCarrousel .flechasCarrousel {
+  background-color: rgba(252, 197, 206, 0.3);
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.coleccion {
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  margin: auto;
+  font-size: 1.5rem;
+  padding: 5rem 10rem;
+  color: white;
+  background-color: #181818;
+}
+.coleccion .contenedor-img {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-template-rows: auto auto;
+  column-gap: 2rem;
+  justify-content: center;
+  grid-gap: 5rem;
+  width: 100%;
+}
+.coleccion .contenedor-img img {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+}
+.coleccion .item {
+  display: grid;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  border: solid grey;
+}
+
+#fondo {
+  background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
+  width: 100%;
+  height: 600px;
+}
+#fondo .titulo {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+}
+#fondo .formulario {
+  font-family: "Oswald", sans-serif;
+  color: rgb(56, 185, 172);
+  display: grid;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: solid;
+  color: white;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-image: linear-gradient(to right, white, white, pink);
+  }
+  .articulos {
+    padding: 0;
+    background-color: black;
+  }
+}
+.div .btn {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+.btn-green {
+  color: white;
+  background-color: grey;
+}
+
+.btn-green:hover {
+  color: white;
+  background-color: rgb(59, 59, 59);
+}
+
+.btn-green:active {
+  color: white;
+  background-color: rgb(27, 27, 27);
+}
+
+.main {
+  color: black;
+  width: 80%;
+}
+
+/*# sourceMappingURL=main.css.map */
