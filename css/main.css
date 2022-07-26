@@ -97,6 +97,10 @@ nav {
 
 }
 
+.contenedor-texto{
+  text-align: center;
+}
+
 .contenedor-texto h2{
   font-size: 50px;
   margin-bottom: 5px;
@@ -367,7 +371,7 @@ section:nth-child(7) {
   width: 80%;
 }
 
-.section {
+/*.section {
   display: flex;
   flex-direction: column-reverse;
   height: 650px;
@@ -384,6 +388,61 @@ section:nth-child(7) {
 }
 
 .contenedor-texto {
+  text-align: center;
+}
+*/
+
+#sec1{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+#sec1 img{
+  height: 40%;
+}
+
+#sec2{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+#sec2 img{
+  height: 40%;
+}
+
+#sec3{ 
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+#sec3 img{
+  height: 40%;
+}
+
+#sec4{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+#sec4 img{
+  height: 40%;
+}
+
+#sec5{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+#sec5 img{
+  height: 40%;
+}
+
+#sec6{
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+#sec6 img{
+  height: 40%;
+}
+
+.contenedor-texto{
   text-align: center;
 }
 
