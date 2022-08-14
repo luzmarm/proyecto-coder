@@ -1,0 +1,24 @@
+#fondo {
+    background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
+    width: 100%;
+    height: 600px;
+    
+    .titulo {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        background-color: black;
+        color: white;
+    }
+    
+
+    .formulario {
+
+        font-family: 'Oswald', sans-serif;
+        color: rgb(56, 185, 172);
+        display: grid;
+        text-align: center;
+        background: rgba(0, 0, 0, .5);
+        border: solid;
+        color: white;
+    }
+}
