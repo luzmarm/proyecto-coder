@@ -6,155 +6,12 @@
   box-sizing: border-box;
 }
 
-
-.body{
-  font-family: 'Oswald', sans-serif;font-family: 'Oswald', sans-serif;
-}
-
-.encabezado {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.7rem;
-}
-
-
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  position: fixed;
-  padding: 0.5rem;
-  width: 100%;
-
-}
-
-.bg-propio {
-  background-image: linear-gradient(to right, white, rgb(255, 249, 250), pink);
-  width: 100%;
-  top: 0;
-  z-index: 999;
-
-}
-
-#sec1 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-}
-
-#sec2 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-
-}
-
-#sec3 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-}
-
-#sec4 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-}
-
-#sec5 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-}
-
-#sec6 {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 650px;
-  padding: 0 40px;
-
-}
-
-.contenedor-texto{
-  text-align: center;
-}
-
-.contenedor-texto h2{
-  font-size: 50px;
-  margin-bottom: 5px;
-}
-
-.contenedor-texto p{
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-
-section:nth-child(1) {
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%)
-}
-
-section:nth-child(2) {
-  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
-
-}
-
-section:nth-child(3) {
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
-}
-
-section:nth-child(4) {
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-}
-
-section:nth-child(5) {
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-
-}
-
-section:nth-child(6) {
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
-}
-
-section:nth-child(7) {
-  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
-}
-
-
-
-.h1 {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
-  color: white;
-}
-
 .pie-de-pagina {
   background-color: rgb(251, 218, 223);
   font-family: "Oswald", sans-serif;
   font-size: 1.7rem;
   display: grid;
-  color: "$color-principal";
+  color: black;
   grid-template-areas: "redes-sociales" "deva-accesorios";
   justify-content: end;
   padding: 1rem;
@@ -181,19 +38,19 @@ section:nth-child(7) {
 }
 
 .articulos {
-  color: "$color-principal"; 
+  color: black;
   font-family: "Oswald", sans-serif;
   text-align: center;
   padding: 5rem;
-  background-color: "$color-principal";
+  background-color: black;
 }
 .articulos .a:hover {
-  color: "$color-principal";
+  color: black;
 }
 .articulos .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
+  background-color: black;
   color: white;
 }
 .articulos #fondo {
@@ -202,7 +59,7 @@ section:nth-child(7) {
   height: 600px;
 }
 .articulos #fondo .navbar {
-  color: "$color-principal";
+  color: black;
   font-family: "Oswald", sans-serif;
 }
 .articulos #fondo .navbar .li {
@@ -210,7 +67,7 @@ section:nth-child(7) {
 }
 
 #conteItemCarrousel {
-  border: 5px solid white;
+  border: 5px solid black;
   height: 15rem;
   overflow: hidden;
 }
@@ -248,7 +105,7 @@ section:nth-child(7) {
 .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
+  background-color: black;
   color: white;
 }
 
@@ -265,12 +122,14 @@ section:nth-child(7) {
   display: grid;
   grid-template-columns: 2fr 2fr;
   grid-template-rows: auto auto;
-  column-gap: 2rem;
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
   justify-content: center;
   grid-gap: 5rem;
   width: 100%;
   padding: 2rem 2rem;
   flex-direction: column;
+  border: solid black;
 }
 .coleccion .contenedor-img img {
   /*display: grid;*/
@@ -284,7 +143,7 @@ section:nth-child(7) {
   width: 100%;
   justify-content: center;
   text-align: center;
-  border: solid white;
+  /*border: solid grey;*/
 }
 
 #fondo {
@@ -295,7 +154,7 @@ section:nth-child(7) {
 #fondo .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
+  background-color: black;
   color: white;
 }
 #fondo .formulario {
@@ -314,7 +173,7 @@ section:nth-child(7) {
   }
   .articulos {
     padding: 0;
-    background-color: "$color-principal";
+    background-color: black;
   }
   .contenedor-img {
     width: 80%;
@@ -353,7 +212,7 @@ section:nth-child(7) {
   }
   .articulos {
     padding: 0;
-    background-color: "$color-principal";
+    background-color: black;
   }
 }
 @media screen and (max-width: 500px) {
@@ -366,25 +225,25 @@ section:nth-child(7) {
 }
 @media screen and (max-width: 500px) {
   .btn-green {
-    color: "$color-secundario";
+    color: white;
     background-color: grey;
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:hover {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(59, 59, 59);
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:active {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(27, 27, 27);
   }
 }
 @media screen and (max-width: 500px) {
   .main {
-    color: "$color-principal";
+    color: black;
     width: 80%;
   }
 }
@@ -482,18 +341,16 @@ section:nth-child(7) {
 }
 
 .btn-green:hover {
-  color: "$color-secundario";
+  color: white;
   background-color: rgb(59, 59, 59);
 }
 
 .btn-green:active {
-  color: "$color-secundario";
+  color: white;
   background-color: rgb(27, 27, 27);
 }
 
 .main {
-  color: "$color-principal";
+  color: black;
   width: 80%;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

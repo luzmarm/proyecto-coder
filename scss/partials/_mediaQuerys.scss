@@ -8,4 +8,146 @@
     padding: 0;
     background-color: black;
 }
+
+.contenedor-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.contenedor-img img {
+    width: 80%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+      background-image: linear-gradient(to right, white, white, pink);
+    }
+  
+    .articulos {
+      padding: 0;
+      background-color: black;
+    }
+  }
+  
+  .div .btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+  }
+  
+  .btn-green {
+    color: white;
+    background-color: grey;
+  }
+  
+  .btn-green:hover {
+    color: white;
+    background-color: rgb(59, 59, 59);
+  }
+  
+  .btn-green:active {
+    color: white;
+    background-color: rgb(27, 27, 27);
+  }
+  
+  .main {
+    color: black;
+    width: 80%;
+  }
+  
+  /*.section {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 650px;
+  }
+  
+  .contenedor-texto {
+    width: 40%;
+    padding: 0 15rem;
+    justify-content: center;
+  }
+  
+  .section .img {
+    height: 60%;
+  }
+  
+  .contenedor-texto {
+    text-align: center;
+  }
+  */
+  
+  #sec1{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  
+  #sec1 img{
+    height: 40%;
+  }
+  
+  #sec2{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #sec2 img{
+    height: 40%;
+  }
+  
+  #sec3{ 
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  
+  #sec3 img{
+    height: 40%;
+  }
+  
+  #sec4{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #sec4 img{
+    height: 40%;
+  }
+  
+  #sec5{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #sec5 img{
+    height: 40%;
+  }
+  
+  #sec6{
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  #sec6 img{
+    height: 40%;
+  }
+  
+  .contenedor-texto{
+    text-align: center;
+  }
+  
+  
+  .coleccion{
+    padding: 25px;
+  
+  
+  }
+  
+  .item{
+    width: 80%;
+    
+  }
+  
+  /*# sourceMappingURL=main.css.map */
+
+
 }
