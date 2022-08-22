@@ -6,19 +6,18 @@
     .titulo {
         text-align: center;
         font-family: 'Oswald', sans-serif;
-        background-color: black;
-        color: white;
+        background-color: "$color-principal";
+        color: "$color-secundario";
     }
     
 
     .formulario {
 
         font-family: 'Oswald', sans-serif;
-        color: rgb(56, 185, 172);
         display: grid;
         text-align: center;
         background: rgba(0, 0, 0, .5);
         border: solid;
-        color: white;
+        color: "$color-secundario"
     }
 }

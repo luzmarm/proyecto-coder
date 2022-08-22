@@ -6,7 +6,7 @@
     }
 .articulos {
     padding: 0;
-    background-color: black;
+    background-color: "$color-principal";
 }
 
 .contenedor-img {
@@ -29,7 +29,7 @@
   
     .articulos {
       padding: 0;
-      background-color: black;
+      background-color: "$color-principal";
     }
   }
   
@@ -41,22 +41,22 @@
   }
   
   .btn-green {
-    color: white;
+    color: "$color-principal";
     background-color: grey;
   }
   
   .btn-green:hover {
-    color: white;
+    color: "$color-secundario";
     background-color: rgb(59, 59, 59);
   }
   
   .btn-green:active {
-    color: white;
+    color: "$color-secundario";
     background-color: rgb(27, 27, 27);
   }
   
   .main {
-    color: black;
+    color: "$color-principal";
     width: 80%;
   }
   

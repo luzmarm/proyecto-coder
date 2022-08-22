@@ -9,19 +9,16 @@
     padding: 5rem;
 
     .a:hover {
-        color: black;
+        color: "$color-principal";
     }
 
     .titulo {
         text-align: center;
         font-family: 'Oswald', sans-serif;
-        background-color: black;
-        color: white;
+        background-color: "$color-principal";
+        color: "$color-secundario";
     }
     
-
-    background-color: $color-principal;
-
     #fondo {
         background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
         width: 100%;
@@ -29,11 +26,11 @@
         
 
         .navbar {
-            color: black;
+            color: "$color-principal";
             font-family: 'Oswald', sans-serif;
             
             .li {
-                color: white;
+                color: "$color-secundario";
             }
             
     

@@ -1,5 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+.encabezado {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.7rem;
+}
+.encabezado .bg-propio {
+  background-image: linear-gradient(to right, white, rgb(255, 249, 250), pink);
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +26,7 @@
   font-family: "Oswald", sans-serif;
   font-size: 1.7rem;
   display: grid;
-  color: black;
+  color: "$color-principal";
   grid-template-areas: "redes-sociales" "deva-accesorios";
   justify-content: end;
   padding: 1rem;
@@ -27,7 +42,7 @@
   text-decoration: none;
 }
 .pie-de-pagina .redes .li {
-  color: white;
+  color: "$color-secundario";
 }
 .pie-de-pagina .p {
   display: flex;
@@ -42,16 +57,15 @@
   font-family: "Oswald", sans-serif;
   text-align: center;
   padding: 5rem;
-  background-color: black;
 }
 .articulos .a:hover {
-  color: black;
+  color: "$color-principal";
 }
 .articulos .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: black;
-  color: white;
+  background-color: "$color-principal";
+  color: "$color-secundario";
 }
 .articulos #fondo {
   background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
@@ -59,11 +73,11 @@
   height: 600px;
 }
 .articulos #fondo .navbar {
-  color: black;
+  color: "$color-principal";
   font-family: "Oswald", sans-serif;
 }
 .articulos #fondo .navbar .li {
-  color: white;
+  color: "$color-secundario";
 }
 
 #conteItemCarrousel {
@@ -105,8 +119,8 @@
 .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: black;
-  color: white;
+  background-color: "$color-principal";
+  color: "$color-secundario";
 }
 
 .coleccion {
@@ -115,7 +129,7 @@
   margin: 0 auto;
   font-size: 1.5rem;
   padding: 5rem 10rem;
-  color: white;
+  color: "$color-secundario";
   background-color: #181818;
 }
 .coleccion .contenedor-img {
@@ -129,7 +143,7 @@
   width: 100%;
   padding: 2rem 2rem;
   flex-direction: column;
-  border: solid black;
+  border: solid "$color-primario";
 }
 .coleccion .contenedor-img img {
   /*display: grid;*/
@@ -154,17 +168,16 @@
 #fondo .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: black;
-  color: white;
+  background-color: "$color-principal";
+  color: "$color-secundario";
 }
 #fondo .formulario {
   font-family: "Oswald", sans-serif;
-  color: rgb(56, 185, 172);
   display: grid;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   border: solid;
-  color: white;
+  color: "$color-secundario";
 }
 
 @media screen and (max-width: 500px) {
@@ -173,7 +186,7 @@
   }
   .articulos {
     padding: 0;
-    background-color: black;
+    background-color: "$color-principal";
   }
   .contenedor-img {
     width: 80%;
@@ -212,7 +225,7 @@
   }
   .articulos {
     padding: 0;
-    background-color: black;
+    background-color: "$color-principal";
   }
 }
 @media screen and (max-width: 500px) {
@@ -225,25 +238,25 @@
 }
 @media screen and (max-width: 500px) {
   .btn-green {
-    color: white;
+    color: "$color-principal";
     background-color: grey;
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:hover {
-    color: white;
+    color: "$color-secundario";
     background-color: rgb(59, 59, 59);
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:active {
-    color: white;
+    color: "$color-secundario";
     background-color: rgb(27, 27, 27);
   }
 }
 @media screen and (max-width: 500px) {
   .main {
-    color: black;
+    color: "$color-principal";
     width: 80%;
   }
 }

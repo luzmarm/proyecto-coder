@@ -1,0 +1,15 @@
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Oswald", sans-serif;
+    font-size: 1.7rem;
+
+    .bg-propio {
+        background-image: linear-gradient(to right, white, rgb(255, 249, 250), pink);
+        width: 100%;
+        top: 0;
+        z-index: 999;}
+
+  }

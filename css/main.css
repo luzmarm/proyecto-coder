@@ -146,7 +146,7 @@ section:nth-child(7) {
   text-align: center;
   font-family: "Oswald", sans-serif;
   background-color: "$color-principal";
-  color: white;
+  color: black;
 }
 
 .pie-de-pagina {
@@ -170,7 +170,7 @@ section:nth-child(7) {
   text-decoration: none;
 }
 .pie-de-pagina .redes .li {
-  color: white;
+  color: "$color-secundario";
 }
 .pie-de-pagina .p {
   display: flex;
@@ -181,14 +181,14 @@ section:nth-child(7) {
 }
 
 .articulos {
-  color: "$color-principal"; 
+  color: black; 
   font-family: "Oswald", sans-serif;
   text-align: center;
   padding: 5rem;
-  background-color: "$color-principal";
+  background-color: black;
 }
 .articulos .a:hover {
-  color: "$color-principal";
+  color: black;
 }
 .articulos .titulo {
   text-align: center;
@@ -202,7 +202,7 @@ section:nth-child(7) {
   height: 600px;
 }
 .articulos #fondo .navbar {
-  color: "$color-principal";
+  color: black;
   font-family: "Oswald", sans-serif;
 }
 .articulos #fondo .navbar .li {
@@ -248,8 +248,8 @@ section:nth-child(7) {
 .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 .coleccion {
@@ -295,12 +295,11 @@ section:nth-child(7) {
 #fondo .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
+  background-color: black;
   color: white;
 }
 #fondo .formulario {
   font-family: "Oswald", sans-serif;
-  color: rgb(56, 185, 172);
   display: grid;
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
@@ -366,25 +365,25 @@ section:nth-child(7) {
 }
 @media screen and (max-width: 500px) {
   .btn-green {
-    color: "$color-secundario";
+    color: white;
     background-color: grey;
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:hover {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(59, 59, 59);
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:active {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(27, 27, 27);
   }
 }
 @media screen and (max-width: 500px) {
   .main {
-    color: "$color-principal";
+    color: black;
     width: 80%;
   }
 }
@@ -482,17 +481,17 @@ section:nth-child(7) {
 }
 
 .btn-green:hover {
-  color: "$color-secundario";
+  color: white;
   background-color: rgb(59, 59, 59);
 }
 
 .btn-green:active {
-  color: "$color-secundario";
+  color: white;
   background-color: rgb(27, 27, 27);
 }
 
 .main {
-  color: "$color-principal";
+  color: black;
   width: 80%;
 }
 

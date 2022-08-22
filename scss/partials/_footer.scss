@@ -3,7 +3,7 @@
     font-family: 'Oswald', sans-serif;
     font-size: 1.7rem;
     display: grid;
-    color: black;
+    color: "$color-principal";
     grid-template-areas:
         "redes-sociales"
         "deva-accesorios";
@@ -21,7 +21,7 @@
     }
     
     .li {
-        color: white;
+        color: "$color-secundario";
     }
 
     }
