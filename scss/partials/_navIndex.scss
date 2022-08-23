@@ -1,6 +1,6 @@
 .articulos {
 
-    color: black;
+    color: "$color-principal";
 
     font-family: 'Oswald', sans-serif;
 
@@ -42,12 +42,12 @@
     }
     
     #conteItemCarrousel {
-        border: 5px solid black;
+        border: 5px solid "$color-principal";
         height: 15rem;
         overflow: hidden;
 
         .itemCarrousel {
-            border: 1px solid white;
+            border: 1px solid "$color-secundario";
             height: 200px;
             position: relative;
             height: 100%;
