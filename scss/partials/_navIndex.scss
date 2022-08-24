@@ -1,6 +1,6 @@
 .articulos {
 
-    color: "$color-principal";
+    color: $color-principal;
 
     font-family: 'Oswald', sans-serif;
 
@@ -9,28 +9,28 @@
     padding: 5rem;
 
     .a:hover {
-        color: "$color-principal";
+        color: $color-principal;
     }
 
     .titulo {
         text-align: center;
         font-family: 'Oswald', sans-serif;
-        background-color: "$color-principal";
-        color: "$color-secundario";
+        background-color: $color-principal;
+        color: $color-secundario;
     }
     
     #fondo {
         background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
-        width: 100%;
+        width: $medida-principal;
         height: 600px;
         
 
         .navbar {
-            color: "$color-principal";
+            color: $color-principal;
             font-family: 'Oswald', sans-serif;
             
             .li {
-                color: "$color-secundario";
+                color: $color-secundario;
             }
             
     
@@ -42,18 +42,18 @@
     }
     
     #conteItemCarrousel {
-        border: 5px solid "$color-principal";
+        border: 5px solid $color-principal;
         height: 15rem;
         overflow: hidden;
 
         .itemCarrousel {
-            border: 1px solid "$color-secundario";
+            border: 1px solid $color-secundario;
             height: 200px;
             position: relative;
-            height: 100%;
+            height: $medida-principal;
 
         .tarjetaCarrousel {
-            height: 100%;
+            height: $medida-principal;
             position: relative;
 
             #tarjetaCarrousel-1 {
@@ -75,10 +75,10 @@
 
         .flechasCarrousel {
             background-color: rgb(252, 197, 206, 0.3);
-            height: 100%;
+            height: $medida-principal;
             position: absolute;
             top: 0;
-            width: 100%;
+            width: $medida-principal;
             display: flex;
             align-items: center;
             justify-content: space-between;

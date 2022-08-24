@@ -59,13 +59,13 @@
   padding: 5rem;
 }
 .articulos .a:hover {
-  color: "$color-principal";
+  color: black;
 }
 .articulos .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
-  color: "$color-secundario";
+  background-color: black;
+  color: white;
 }
 .articulos #fondo {
   background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
@@ -73,11 +73,11 @@
   height: 600px;
 }
 .articulos #fondo .navbar {
-  color: "$color-principal";
+  color: black;
   font-family: "Oswald", sans-serif;
 }
 .articulos #fondo .navbar .li {
-  color: "$color-secundario";
+  color: white;
 }
 
 #conteItemCarrousel {
@@ -125,7 +125,7 @@
 
 .coleccion {
   font-family: "Oswald", sans-serif;
-  width: 100%;
+  width: "$medida-principal";
   margin: 0 auto;
   font-size: 1.5rem;
   padding: 5rem 10rem;
@@ -150,26 +150,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  width: "$medida-principal";
 }
 .coleccion .item {
   display: grid;
-  width: 100%;
+  width: "$medida-principal";
   justify-content: center;
   text-align: center;
-  /*border: solid grey;*/
 }
 
 #fondo {
   background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
   width: 100%;
-  height: 600px;
+  height: 600%;
 }
 #fondo .titulo {
   text-align: center;
   font-family: "Oswald", sans-serif;
-  background-color: "$color-principal";
-  color: "$color-secundario";
+  background-color: black;
+  color: white;
 }
 #fondo .formulario {
   font-family: "Oswald", sans-serif;
@@ -177,7 +176,7 @@
   text-align: center;
   background: rgba(0, 0, 0, 0.5);
   border: solid;
-  color: "$color-secundario";
+  color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -186,7 +185,7 @@
   }
   .articulos {
     padding: 0;
-    background-color: "$color-principal";
+    background-color: black;
   }
   .contenedor-img {
     width: 80%;
@@ -225,7 +224,7 @@
   }
   .articulos {
     padding: 0;
-    background-color: "$color-principal";
+    background-color: black;
   }
 }
 @media screen and (max-width: 500px) {
@@ -238,25 +237,25 @@
 }
 @media screen and (max-width: 500px) {
   .btn-green {
-    color: "$color-principal";
+    color: black;
     background-color: grey;
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:hover {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(59, 59, 59);
   }
 }
 @media screen and (max-width: 500px) {
   .btn-green:active {
-    color: "$color-secundario";
+    color: white;
     background-color: rgb(27, 27, 27);
   }
 }
 @media screen and (max-width: 500px) {
   .main {
-    color: "$color-principal";
+    color: black;
     width: 80%;
   }
 }

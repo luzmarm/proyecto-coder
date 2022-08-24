@@ -1,26 +1,20 @@
 .titulo {
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    background-color: "$color-principal";
-    color: "$color-secundario";
+    background-color: $color-principal;
+    color: $color-secundario;
 }
-
-
-
-
 
 .coleccion {
 
 
     font-family: 'Oswald', sans-serif;
-    width: 100%;
+    width: $medida-principal;
     margin: 0 auto;
     font-size: 1.5rem;
     padding: 5rem 10rem;
-    color: "$color-secundario";
+    color: $color-secundario;
     background-color: #181818;
-
-
 
     .contenedor-img {
         display: grid;
@@ -29,31 +23,24 @@
         column-gap: 2rem;
         justify-content: center;
         grid-gap: 5rem;
-        width: 100%;
+        width: $medida-principal;
         padding: 2rem 2rem;
         flex-direction: column;
-        border: solid "$color-primario";
-
+        border: solid $color-primario;
     }
 
     .contenedor-img img {
-        /*display: grid;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
-
+        width: $medida-principal;
     }
 
     .item {
         display: grid;
-        width: 100%;
+        width: $medida-principal;
         justify-content: center;
         text-align: center;
-        /*border: solid grey;*/
-
-
     }
-
 
 }

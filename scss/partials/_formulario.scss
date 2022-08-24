@@ -1,13 +1,13 @@
 #fondo {
     background-image: url(https://c.wallhere.com/photos/14/3e/simple_background_monochrome_women_brunette_face_portrait-119704.png!d);
-    width: 100%;
+    width: $medida-principal;
     height: 600px;
     
     .titulo {
         text-align: center;
         font-family: 'Oswald', sans-serif;
-        background-color: "$color-principal";
-        color: "$color-secundario";
+        background-color: $color-principal;
+        color: $color-secundario;
     }
     
 
@@ -18,6 +18,6 @@
         text-align: center;
         background: rgba(0, 0, 0, .5);
         border: solid;
-        color: "$color-secundario"
+        color: $color-secundario
     }
 }

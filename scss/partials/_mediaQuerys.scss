@@ -6,17 +6,17 @@
     }
 .articulos {
     padding: 0;
-    background-color: "$color-principal";
+    background-color: $color-principal;
 }
 
 .contenedor-img {
-    width: 80%;
+    width: $medida-principal - 20;
     margin: 0 auto;
 }
 
 
 .contenedor-img img {
-    width: 80%;
+    width: $medida-principal - 20;
     display: flex;
     flex-direction: column-reverse;
 }
@@ -29,7 +29,7 @@
   
     .articulos {
       padding: 0;
-      background-color: "$color-principal";
+      background-color: $color-principal;
     }
   }
   
@@ -41,23 +41,23 @@
   }
   
   .btn-green {
-    color: "$color-principal";
+    color: $color-principal;
     background-color: grey;
   }
   
   .btn-green:hover {
-    color: "$color-secundario";
+    color: $color-secundario;
     background-color: rgb(59, 59, 59);
   }
   
   .btn-green:active {
-    color: "$color-secundario";
+    color: $color-secundario;
     background-color: rgb(27, 27, 27);
   }
   
   .main {
-    color: "$color-principal";
-    width: 80%;
+    color: $color-principal;
+    width: $medida-principal - 20;
   }
   
   /*.section {
@@ -87,7 +87,7 @@
   }
   
   #sec1 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   #sec2{
@@ -95,7 +95,7 @@
     justify-content: center;
   }
   #sec2 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   #sec3{ 
@@ -104,7 +104,7 @@
   }
   
   #sec3 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   #sec4{
@@ -112,7 +112,7 @@
     justify-content: center;
   }
   #sec4 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   #sec5{
@@ -120,7 +120,7 @@
     justify-content: center;
   }
   #sec5 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   #sec6{
@@ -128,7 +128,7 @@
     justify-content: center;
   }
   #sec6 img{
-    height: 40%;
+    height: $medida-principal - 60;
   }
   
   .contenedor-texto{
@@ -143,7 +143,7 @@
   }
   
   .item{
-    width: 80%;
+    width: $medida-principal - 20;
     
   }
   
